@@ -1,6 +1,15 @@
 
     /* Nugget ti voglio leccare la cappella */
 
+    /* Root */
+    :root {
+        --purple-1: rgb(132, 94, 194);
+        --gray-2: #c1c1c1;
+        --gray-3: #95978B;
+        --gray-4: #2F2F2F;
+        --ore-1: #CBD3DC;
+    }
+
     p {
         margin: 0;
     }
@@ -47,13 +56,13 @@
     }
 
     #accept-button {
-        background-color: rgb(132, 94, 194);
+        background-color: var(--purple-1);
         color: white;
     }
 
     #decline-button {
-        color: rgb(132, 94, 194);
-        border: 2px solid rgb(132, 94, 194);
+        color: var(--purple-1);
+        border: 2px solid var(--purple-1);
     }
 
     p.overlay-description {
@@ -69,7 +78,7 @@
         text-decoration: none;
         font-size: 16px;
         font-weight: 500;
-        color: rgb(132, 94, 194);
+        color: var(--purple-1);
         line-height: 1;
         position: relative;
         margin-top: 16px;

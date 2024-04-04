@@ -14,7 +14,7 @@ function buttonClick(event) {
     if (!hasClicked) hasClicked = true;
     overlay.hidden = true;
     if (event.target.id === "decline-button") {
-        video.src = "assets/video/thegame.mp4"; // Change source to thegame.gif
+        video.src = "assets/video/thegame.mp4";
     }
     video.play();
     videoClick();
