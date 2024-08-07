@@ -1,4 +1,4 @@
-**⚠️ README**
+## **⚠️ README**
 
 A copy of pnrtscr.com was created to prank users in chatrooms. I have rewritten the source code to revive the now-defunct pnrtscr.com.
 Of course, I do not take credit; the real creators of the site deserve the recognition from which I drew inspiration.
